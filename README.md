@@ -9,3 +9,7 @@ In a command terminal run these commands
     chmod 0755 lampInstall.sh
     sudo ./lampInstall.sh
 
+# IMPORTANT!
+The MySQL root password is set to "rootpass" and needs to be reset with the command
+
+    mysqladmin -u root password newpasswordhere
