@@ -7,5 +7,5 @@ In a command terminal run these commands
 
     wget https://raw.githubusercontent.com/deviantlycan/ubuntulampscript/master/lampInstall.sh -O- | tr -d '\r' > lampInstall.sh
     chmod 0755 lampInstall.sh
-    ./lampInstall.sh
+    sudo ./lampInstall.sh
 
