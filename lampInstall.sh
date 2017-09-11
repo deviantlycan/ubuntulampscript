@@ -75,6 +75,7 @@ debconf-set-selections <<< 'phpmyadmin phpmyadmin/mysql/app-pass password rootpa
 debconf-set-selections <<< 'phpmyadmin phpmyadmin/app-password-confirm password rootpass'
 debconf-set-selections <<< 'phpmyadmin phpmyadmin/reconfigure-websever multiselect none'
 debconf-set-selections <<< 'phpmyadmin phpmyadmin/database-type select mysql'
+debconf-set-selections <<< 'phpmyadmin phpmyadmin/dbconfig-install boolean true'
 debconf-set-selections <<< 'phpmyadmin phpmyadmin/setup-password password rootpass'
 debconf-set-selections <<< 'phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2'
 
