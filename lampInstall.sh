@@ -63,7 +63,7 @@ composer
 wget -N https://phar.phpunit.de/phpunit-6.3.phar -P ~/
 chmod +x phpunit-6.3.phar
 sudo mv phpunit-6.3.phar /usr/local/bin/phpunit
-phpunit -version
+phpunit --version
 
 printf "\n\n======\n Installing phpMyAdmin \n======\n\n"
 # Install phpMyAdmin for 
