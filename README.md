@@ -1,6 +1,7 @@
 # Ubuntu LAMP Script
 
-This is a simple shell script that will install necessary components of a LAMP server as well as other useful utilities to a fresh Ubuntu 16.04 instance.
+This is a simple shell script that will install necessary components of a LAMP server as well as other useful utilities to a fresh Ubuntu 16.04 LTS instance.
+This has been tested on a clean install of Ubuntu 16.04 LTS locally, as well as on a Google Cloud Platform (GCP) Compute instance that was created with Ubuntu 16.04 LTS, and the GCP compute default Compute configuration of Debian GNU/Linux 9 (stretch).
 
 ## Instructions
 In a command terminal run these commands
