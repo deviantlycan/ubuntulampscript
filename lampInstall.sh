@@ -80,7 +80,6 @@ debconf-set-selections <<< 'phpmyadmin phpmyadmin/setup-password password rootpa
 debconf-set-selections <<< 'phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2'
 
 sudo apt-get install phpmyadmin -y
-echo "Include /etc/phpmyadmin/apache.conf" | sudo tee -a
 echo "Include /etc/phpmyadmin/apache.conf" | sudo tee -a /etc/apache2/apache2.conf
 sudo systemctl restart apache2
 
